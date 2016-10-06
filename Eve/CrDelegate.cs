@@ -9,5 +9,12 @@ namespace Eve
     public delegate void userHandle();
     class CrDelegate
     {
+        public event userHandle userEvents;
+
+        public void onHandler()
+        {
+            if (userEvents != null)
+                userEvents();
+         }
     }
 }

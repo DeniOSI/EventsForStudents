@@ -1,1 +1,6 @@
 c:\users\osipenko\documents\visual studio 2015\Projects\Eve\Eve\bin\Debug\Eve.exe.config
+c:\users\osipenko\documents\visual studio 2015\Projects\Eve\Eve\bin\Debug\Eve.exe
+c:\users\osipenko\documents\visual studio 2015\Projects\Eve\Eve\bin\Debug\Eve.pdb
+c:\users\osipenko\documents\visual studio 2015\Projects\Eve\Eve\obj\Debug\Eve.csprojResolveAssemblyReference.cache
+c:\users\osipenko\documents\visual studio 2015\Projects\Eve\Eve\obj\Debug\Eve.exe
+c:\users\osipenko\documents\visual studio 2015\Projects\Eve\Eve\obj\Debug\Eve.pdb
