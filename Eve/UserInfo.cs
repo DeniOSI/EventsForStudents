@@ -17,10 +17,14 @@ namespace Eve
             this.u_age = u_age;
         }
 
-        public void UInfo()
+        public void UInfo() 
         {
             Console.WriteLine("Event is call");
             Console.WriteLine(name + " "  + sname + " " + u_age);
+        }
+        public void TestFunction() //Метод для тестирования
+        {
+            Console.WriteLine("Test message");
         }
     }
 }
