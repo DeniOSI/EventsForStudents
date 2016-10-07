@@ -13,6 +13,7 @@ namespace Eve
             CrDelegate uDelegate = new CrDelegate();
             UserInfo ui = new UserInfo("Vasile", "Petrov", 22);
             uDelegate.userEvents += ui.UInfo;
+            uDelegate.userEvents += ui.TestFunction;
 
 
             for (;;)
@@ -26,13 +27,17 @@ namespace Eve
                 }
                 else
                     Console.Clear();
-                    Console.WriteLine(dt.Second);
+                    Console.WriteLine(dt.ToString("T"));
+                Console.WriteLine("{0 }", dt.Year);
+                Console.WriteLine("{0}", dt.Month);
+                Console.WriteLine("{0}", dt.Day);
+
                 System.Threading.Thread.Sleep(1000);
                     
 
             }
             Console.ReadKey();
         }
-        
+
     }
 }
